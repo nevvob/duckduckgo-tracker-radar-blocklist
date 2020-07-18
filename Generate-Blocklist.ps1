@@ -76,6 +76,6 @@ Clear-Host
 
 Write-Host "DuckDuckGo tracker pi-hole blocklist generator"
 
-Get-TrackerLatest -trackerRepo '../tracker-radar'
-Write-BlockList -trackerRepo '../tracker-radar' -blockListRepo (Resolve-Path '.') -file 'block-list.txt'
+#Get-TrackerLatest -trackerRepo '../tracker-radar'
+#Write-BlockList -trackerRepo '../tracker-radar' -blockListRepo (Resolve-Path '.') -file 'block-list.txt'
 Push-BlockList 'duckduckgo-tracker-radar-blocklist'
